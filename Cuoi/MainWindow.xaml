@@ -1,0 +1,77 @@
+﻿<Window x:Class="Cuoi.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cuoi"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="800"
+        Loaded="Window_loaded">
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" Grid.Column="0"
+               Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center"
+               Content="QUẢN LÝ SÁCH" FontSize="30"/>
+
+        <Label Grid.Row="1" Grid.Column="0"
+               Content="Mã sách:" Style="{StaticResource label}"/>
+        <TextBox Grid.Row="1" Grid.Column="1" Style="{StaticResource textBox}"
+                 x:Name="maSachtxt"/>
+
+        <Label Grid.Row="2" Grid.Column="0"
+               Content="Tên sách:" Style="{StaticResource label}"/>
+        <TextBox Grid.Row="2" Grid.Column="1" Style="{StaticResource textBox}"
+                 x:Name="tenSachtxt"/>
+
+        <Label Grid.Row="3" Grid.Column="0"
+               Content="Số lượng:" Style="{StaticResource label}"/>
+        <TextBox Grid.Row="3" Grid.Column="1" Style="{StaticResource textBox}"
+                 x:Name="soLuongtxt"/>
+
+        <Label Grid.Row="4" Grid.Column="0"
+               Content="Mã nhà xuất bản:" Style="{StaticResource label}"/>
+        <TextBox Grid.Row="4" Grid.Column="1" Style="{StaticResource textBox}"
+                 x:Name="maNXBtxt"/>
+
+        <DataGrid Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" x:Name="dataGrid"
+                  AutoGenerateColumns="False" ColumnHeaderStyle="{StaticResource dataGrid}"
+                  HorizontalAlignment="Center" Margin="10">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Mã sách" Binding="{Binding MaSp}"/>
+                <DataGridTextColumn Header="Tên sách" Binding="{Binding TenSp}"/>
+                <DataGridTextColumn Header="Số lượng" Binding="{Binding SoLuong}"/>
+                <DataGridTextColumn Header="Tên nhà xuất bản" Binding="{Binding TenLoai}"
+                                    Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <StackPanel Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2"
+                    HorizontalAlignment="Center" VerticalAlignment="Center"
+                    Orientation="Horizontal">
+            <Button Style="{StaticResource button}" Template="{StaticResource buttonTemplate}" 
+                    Content="Thêm" Click="Them"/>
+
+            <Button Style="{StaticResource button}" Template="{StaticResource buttonTemplate}" 
+                    Content="Xoá" Click="Xoa"/>
+
+            <Button Style="{StaticResource button}" Template="{StaticResource buttonTemplate}" 
+                    Content="Thống Kê" Click="ThongKe"/>
+        </StackPanel>
+
+    </Grid>
+</Window>

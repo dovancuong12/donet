@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dovan\\source\\repos\\Cuoi\\Cuoi\\Cuoi.csproj": {}
+    "C:\\Users\\dovan\\OneDrive\\Documents\\donet\\Cuoi\\Cuoi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dovan\\source\\repos\\Cuoi\\Cuoi\\Cuoi.csproj": {
+    "C:\\Users\\dovan\\OneDrive\\Documents\\donet\\Cuoi\\Cuoi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dovan\\source\\repos\\Cuoi\\Cuoi\\Cuoi.csproj",
+        "projectUniqueName": "C:\\Users\\dovan\\OneDrive\\Documents\\donet\\Cuoi\\Cuoi.csproj",
         "projectName": "Cuoi",
-        "projectPath": "C:\\Users\\dovan\\source\\repos\\Cuoi\\Cuoi\\Cuoi.csproj",
+        "projectPath": "C:\\Users\\dovan\\OneDrive\\Documents\\donet\\Cuoi\\Cuoi.csproj",
         "packagesPath": "C:\\Users\\dovan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dovan\\source\\repos\\Cuoi\\Cuoi\\obj\\",
+        "outputPath": "C:\\Users\\dovan\\OneDrive\\Documents\\donet\\Cuoi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

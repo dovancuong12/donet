@@ -1,12 +1,86 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\dovan\\OneDrive\\Documents\\donet\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{76236AC2-5053-410B-9A6D-896A83854DC5}|Cuoi\\Cuoi.csproj|c:\\users\\dovan\\onedrive\\documents\\donet\\cuoi\\filename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76236AC2-5053-410B-9A6D-896A83854DC5}|Cuoi\\Cuoi.csproj|solutionrelative:cuoi\\filename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76236AC2-5053-410B-9A6D-896A83854DC5}|Cuoi\\Cuoi.csproj|c:\\users\\dovan\\onedrive\\documents\\donet\\cuoi\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{76236AC2-5053-410B-9A6D-896A83854DC5}|Cuoi\\Cuoi.csproj|solutionrelative:cuoi\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76236AC2-5053-410B-9A6D-896A83854DC5}|Cuoi\\Cuoi.csproj|c:\\users\\dovan\\onedrive\\documents\\donet\\cuoi\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76236AC2-5053-410B-9A6D-896A83854DC5}|Cuoi\\Cuoi.csproj|solutionrelative:cuoi\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76236AC2-5053-410B-9A6D-896A83854DC5}|Cuoi\\Cuoi.csproj|c:\\users\\dovan\\onedrive\\documents\\donet\\cuoi\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{76236AC2-5053-410B-9A6D-896A83854DC5}|Cuoi\\Cuoi.csproj|solutionrelative:cuoi\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\dovan\\OneDrive\\Documents\\donet\\Cuoi\\App.xaml",
+              "RelativeDocumentMoniker": "Cuoi\\App.xaml",
+              "ToolTip": "C:\\Users\\dovan\\OneDrive\\Documents\\donet\\Cuoi\\App.xaml",
+              "RelativeToolTip": "Cuoi\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-23T06:21:43.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\dovan\\OneDrive\\Documents\\donet\\Cuoi\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Cuoi\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\dovan\\OneDrive\\Documents\\donet\\Cuoi\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Cuoi\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T06:20:25.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileName.cs",
+              "DocumentMoniker": "C:\\Users\\dovan\\OneDrive\\Documents\\donet\\Cuoi\\FileName.cs",
+              "RelativeDocumentMoniker": "Cuoi\\FileName.cs",
+              "ToolTip": "C:\\Users\\dovan\\OneDrive\\Documents\\donet\\Cuoi\\FileName.cs",
+              "RelativeToolTip": "Cuoi\\FileName.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T06:20:13.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\dovan\\OneDrive\\Documents\\donet\\Cuoi\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Cuoi\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\dovan\\OneDrive\\Documents\\donet\\Cuoi\\MainWindow.xaml",
+              "RelativeToolTip": "Cuoi\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-23T06:19:57.28Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

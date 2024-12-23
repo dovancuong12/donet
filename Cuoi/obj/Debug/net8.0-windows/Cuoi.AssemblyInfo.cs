@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cuoi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54e3723d388e86100e33622002d8ae66de3ae64c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cuoi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cuoi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

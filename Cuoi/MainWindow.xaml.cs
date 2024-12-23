@@ -92,7 +92,6 @@ namespace Cuoi
                 var x = db.SanPhams.FirstOrDefault(sp => sp.MaSp == maSachtxt.Text);
                 db.SanPhams.Remove(x);
                 db.SaveChanges();
-
                 View();
             }
         }

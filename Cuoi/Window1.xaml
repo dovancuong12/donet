@@ -8,7 +8,8 @@
         Title="Window1" Height="450" Width="800">
     <Grid>
         <DataGrid HorizontalAlignment="Center" x:Name="dataGrid1"
-                  ColumnHeaderStyle="{StaticResource dataGrid}">
+                  ColumnHeaderStyle="{StaticResource dataGrid}"
+                  AutoGenerateColumns="False">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Tên nhà xuất bản" Binding="{Binding TenNXB}"/>
                 <DataGridTextColumn Header="Tổng số đầu sách" Binding="{Binding TongSoDauSach}"
